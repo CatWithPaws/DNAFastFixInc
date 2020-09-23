@@ -7,7 +7,7 @@ public class LevelGenerator : MonoBehaviour
 {
     [SerializeField]
     LevelVars LevelVars;
-    Transform Parent;
+    [SerializeField] Transform Parent;
     [SerializeField]
     GameObject DNA1,DNA2,blankPref;
     System.Random rnd;
